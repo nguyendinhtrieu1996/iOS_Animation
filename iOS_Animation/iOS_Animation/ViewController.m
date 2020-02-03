@@ -28,12 +28,16 @@
     [self.view addSubview:self.tableView];
 }
 
+- (void)_testMethod {
+    NSLog(@"Test thu");
+}
+
 #pragma mark UITableViewDelegate
 
 #pragma mark UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10
+    return 10;
 }
 
 @end
