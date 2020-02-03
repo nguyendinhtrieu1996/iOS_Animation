@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		271545D523E7C08B005DA4A4 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271545D423E7C08B005DA4A4 /* TestViewController.m */; };
+		271545D823E7C0D8005DA4A4 /* Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 271545D723E7C0D8005DA4A4 /* Atom.m */; };
 		27AF570F2386E4AC00A9BB53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF570E2386E4AC00A9BB53 /* AppDelegate.m */; };
 		27AF57122386E4AC00A9BB53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF57112386E4AC00A9BB53 /* ViewController.m */; };
 		27AF57152386E4AC00A9BB53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF57132386E4AC00A9BB53 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		271545D323E7C08B005DA4A4 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		271545D423E7C08B005DA4A4 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		271545D623E7C0D8005DA4A4 /* Atom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
+		271545D723E7C0D8005DA4A4 /* Atom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Atom.m; sourceTree = "<group>"; };
 		27AF570A2386E4AC00A9BB53 /* iOS_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AF570D2386E4AC00A9BB53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27AF570E2386E4AC00A9BB53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				27AF57182386E4AD00A9BB53 /* LaunchScreen.storyboard */,
 				27AF571B2386E4AD00A9BB53 /* Info.plist */,
 				27AF571C2386E4AD00A9BB53 /* main.m */,
+				271545D623E7C0D8005DA4A4 /* Atom.h */,
+				271545D723E7C0D8005DA4A4 /* Atom.m */,
 			);
 			path = iOS_Animation;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271545D823E7C0D8005DA4A4 /* Atom.m in Sources */,
 				27AF57122386E4AC00A9BB53 /* ViewController.m in Sources */,
 				27AF571D2386E4AD00A9BB53 /* main.m in Sources */,
 				271545D523E7C08B005DA4A4 /* TestViewController.m in Sources */,
